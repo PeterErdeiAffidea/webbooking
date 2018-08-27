@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 500px;
+}
+
+.emailTitleText {
+    font-size: 16px;
+}
+
+.emailHeaderText {
+    font-size: 14px;
+}
+
+.emailHeaderBox {
+    width: 400px;
+}
+
+.emailHeaderBox img {
+    background: #418fde;
+    margin:0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.emailFooterBox {
+    font-size: 9px;
+}

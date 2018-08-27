@@ -1,0 +1,26 @@
+link(rel="stylesheet", href="/css/affidea-booking-email.css", data-inline)
+div(class="emailBox")
+    div(class="emailHeaderBox")
+        img(src="cid:horizontal-logo-inverse")
+    div(class="emailContent")
+        h3(class="emailTitleText") #{mailTitleClinic}
+        b(class="emailHeaderText") #{mailBookingDataClinic}:
+        ul
+            li #{mailInsurances}: #{insurance}
+            li #{mailService}: #{service}
+            li #{mailCenter}: #{center}
+            li #{mailDatetime}: #{date} #{time}
+            li #{mailPersonalNumbers}: #{personalNumbers}
+            li #{mailMedic}: #{medic}
+            li #{mailMedicSpeciality}: #{medicSpeciality}
+        b(class="emailHeaderText") #{mailPatientData}:
+        ul
+            li #{mailName}: #{title} #{name}
+            li #{mailGender}: #{gender}
+            li #{mailBirthDate}: #{birthDate}
+            li #{mailAddress}: #{zipCode} #{city} #{address}
+            li #{mailEmail}: #{email}
+            li #{mailPhone}: #{mobile}
+            li #{mailPhone}: #{phone}
+    div(class="emailFooterBox")
+        p #{footer}
